@@ -11,27 +11,33 @@ import 'swiper/css/navigation';
 
 
 
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 
 const Slider = () => {
+
+    
     return (
         <>
-        <div className=''>
+        <div className='lg:container container-none mx-auto py-3'>
             <Swiper
                 slidesPerView={1}
                 spaceBetween={30}
+                autoplay={{
+                    delay: 2500,
+                    disableOnInteraction: false,
+                  }}
                 loop={true}
                 pagination={{
                     clickable: true,
                 }}
                 navigation={true}
-                modules={[Pagination, Navigation]}
+                modules={[Pagination, Navigation, Autoplay]}
                 className="mySwiper"
             >
-                <SwiperSlide><Image className='w-full h-96 mx-auto' src={'/rotacao site.png'} alt='logo' width={1000} height={1000}></Image></SwiperSlide>
-                <SwiperSlide><Image className='w-full h-96 mx-auto' src={'/rotacao site2.png'} alt='logo' width={1000} height={1000}></Image></SwiperSlide>
-                <SwiperSlide><Image className='w-full h-96 mx-auto' src={'/rotacao site3.png'} alt='logo' width={1000} height={1000}></Image></SwiperSlide>
+                <SwiperSlide><Image className='w-full lg:h-96 h-56 mx-auto' src={'/rotacao site.png'} alt='logo' width={1920} height={1080}></Image></SwiperSlide>
+                <SwiperSlide><Image className='w-full lg:h-96 h-56 mx-auto' src={'/rotacao site2.png'} alt='logo' width={1920} height={1080}></Image></SwiperSlide>
+                <SwiperSlide><Image className='w-full lg:h-96 h-56 mx-auto' src={'/rotacao site3.png'} alt='logo' width={1920} height={1080}></Image></SwiperSlide>
             </Swiper>
         </div>
             

@@ -8,18 +8,17 @@ import Endereco from "./components/Endereco";
 import Footer from "./components/Footer";
 import SejaAssinante from "./components/SejaAssinante";
 
+
 export default function Home() {
   return (
     <>
-    <div className="bg-gray-200">
-      <Menu/>
-      <Logo/>
-      <NavBar/>
+    <div className="bg-gray-800">
       <Slider/>
       <Historia/>
       <SejaAssinante/>
       <Endereco/>
       <Footer/>
+
     </div>      
     </>
   )

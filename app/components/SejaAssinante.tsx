@@ -44,7 +44,7 @@ const SejaAssinante = () => {
     return (
         <div className='text-base text-center lg:py-5 bg-gray-300'>
             <div className='text-xl'>
-                <Typography className='text-yellow-800 lg:text-3xl text-2xl' variant="h4">Seja Assinante</Typography>
+                <Typography id="secaoDesejada" className='text-yellow-800 lg:text-3xl text-2xl' variant="h4">Seja Assinante</Typography>
             </div>
             <div className='py-10 px-8 flex lg:justify-center  lg:flex-row flex-col lg:gap-0 sm:gap-3 mx-auto'>
                 <div className="flex flex-col lg:flex-row ">
