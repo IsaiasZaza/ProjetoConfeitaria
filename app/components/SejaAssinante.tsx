@@ -17,6 +17,7 @@ import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import LibraryAddCheckIcon from '@mui/icons-material/LibraryAddCheck';
 import Image from 'next/image';
 
 interface ExpandMoreProps extends IconButtonProps {
@@ -42,11 +43,11 @@ const SejaAssinante = () => {
     };
 
     return (
-        <div className='text-base text-center lg:py-5 bg-gray-300'>
-            <div className='text-xl'>
-                <Typography id="secaoDesejada" className='text-yellow-800 lg:text-3xl text-2xl' variant="h4">Seja Assinante</Typography>
+        <div className='text-base text-center bg-gray-300'>
+            <div className='text-xl py-8'>
+                <Typography id="secaoDesejada" className='text-yellow-800 lg:text-2xl text-2xl ' variant="h6">Seja Assinante <LibraryAddCheckIcon className='text-4xl'/></Typography>
             </div>
-            <div className='py-10 px-8 flex lg:justify-center  lg:flex-row flex-col lg:gap-0 sm:gap-3 mx-auto'>
+            <div className=' px-8 flex lg:justify-center  lg:flex-row flex-col lg:gap-0 sm:gap-3 mx-auto'>
                 <div className="flex flex-col lg:flex-row ">
                     <Card sx={{ maxWidth: 345 }} className="mx-2 lg:mt-1 mt-2 shadow-2xl">
                         <CardHeader

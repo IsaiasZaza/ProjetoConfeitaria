@@ -23,7 +23,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className='text-center bg-gray-300 text-black p-10 mt-5' >
+    <footer className='text-center bg-gray-300 text-black p-10' >
       <Typography variant="h6" gutterBottom>
         Siga-nos nas redes sociais
       </Typography>

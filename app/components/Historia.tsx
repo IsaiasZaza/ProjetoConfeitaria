@@ -4,13 +4,14 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 
 export default function Historia() {
     return (
         <div className='bg-gray-200 py-3'>
             <div className='mt-3 lg:w-5/6 mx-auto bg-yellow-200 lg:px-10 lg:py-16 py-5 px-3 sm:w-full shadow-2xl rounded-lg'>
                 <div className='text-center text-xl'>
-                <Typography className='text-yellow-800 ' variant="h5">Nossa história</Typography>
+                <Typography className='text-yellow-800 justify-center' variant="h5">Nossa história <AutoStoriesIcon className='text-3xl' /></Typography>
                 </div>
                 <div className='w-3/4 mx-auto mt-5'>
                     <p className="text-base lg:text-lg font-bold text-gray-600">

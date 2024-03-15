@@ -12,14 +12,16 @@ import SejaAssinante from "./components/SejaAssinante";
 export default function Home() {
   return (
     <>
-    <div className="bg-gray-800">
-      <Slider/>
-      <Historia/>
-      <SejaAssinante/>
-      <Endereco/>
-      <Footer/>
+      <div className="bg-gray-300">
+        <Slider />
+        <Historia />
+        <SejaAssinante />
+        <div className="">
+          <Endereco />
+        </div>
+        <Footer />
 
-    </div>      
+      </div>
     </>
   )
 }

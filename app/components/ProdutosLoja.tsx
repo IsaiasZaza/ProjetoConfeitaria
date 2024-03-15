@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import StoreIcon from '@mui/icons-material/Store';
-import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
+import LocalGroceryStoreSharpIcon from '@mui/icons-material/LocalGroceryStoreSharp';
 
 const ProdutosLoja = () => {
     return (
@@ -27,7 +27,7 @@ const ProdutosLoja = () => {
                             <p className='text-center text-gray-600'>R$ 160,00</p>
                         </CardContent>
                         <CardActions className="flex justify-center">
-                            <button className='font-medium border-2 text-sm border-yellow-400 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-white bg-gray-600 transition'><a href="https://wa.link/pxei63">Comprar<LocalGroceryStoreIcon className='text-yellow-300 hover:text-black'/></a></button>
+                            <button className='font-medium border-2 text-sm border-yellow-400 py-1 px-2 rounded-full hover:bg-black hover:text-yellow-300 text-white bg-gray-600 transition'><a href="https://wa.link/pxei63">Comprar<LocalGroceryStoreSharpIcon className='text-yellow-300' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -43,8 +43,8 @@ const ProdutosLoja = () => {
                             </Typography>
                         </CardContent>
                         <p className='text-center'>R$ 160,00</p>
-                        <CardActions>
-                            <Button className='text-center justify-center mx-auto' size="small">Comprar</Button>
+                        <CardActions className="flex justify-center">
+                            <button className='font-medium border-2 text-sm border-yellow-400 py-1 px-2 rounded-full hover:bg-black hover:text-yellow-300 text-white bg-gray-600 transition'><a href="https://wa.link/pxei63">Comprar<LocalGroceryStoreSharpIcon className='text-yellow-300' /></a></button>
                         </CardActions>
                     </Card>
                     <Card sx={{ maxWidth: 345 }}>
@@ -59,8 +59,8 @@ const ProdutosLoja = () => {
                             </Typography>
                         </CardContent>
                         <p className='text-center'>R$ 160,00</p>
-                        <CardActions>
-                            <Button className='text-center justify-center mx-auto' size="small">Comprar</Button>
+                        <CardActions className="flex justify-center">
+                            <button className='font-medium border-2 text-sm border-yellow-400 py-1 px-2 rounded-full hover:bg-black hover:text-yellow-300 text-white bg-gray-600 transition'><a href="https://wa.link/pxei63">Comprar<LocalGroceryStoreSharpIcon className='text-yellow-300' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -76,8 +76,8 @@ const ProdutosLoja = () => {
                             </Typography>
                         </CardContent>
                         <p className='text-center'>R$ 160,00</p>
-                        <CardActions>
-                            <Button className='text-center justify-center mx-auto transition-all' size="small">Comprar</Button>
+                        <CardActions className="flex justify-center">
+                            <button className='font-medium border-2 text-sm border-yellow-400 py-1 px-2 rounded-full hover:bg-black hover:text-yellow-300 text-white bg-gray-600 transition'><a href="https://wa.link/pxei63">Comprar<LocalGroceryStoreSharpIcon className='text-yellow-300' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -93,8 +93,8 @@ const ProdutosLoja = () => {
                             </Typography>
                         </CardContent>
                         <p className='text-center'>R$ 160,00</p>
-                        <CardActions>
-                            <Button className='text-center justify-center mx-auto ' size="small">Comprar</Button>
+                        <CardActions className="flex justify-center">
+                            <button className='font-medium border-2 text-sm border-yellow-400 py-1 px-2 rounded-full hover:bg-black hover:text-yellow-300 text-white bg-gray-600 transition'><a href="https://wa.link/pxei63">Comprar<LocalGroceryStoreSharpIcon className='text-yellow-300' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -110,8 +110,8 @@ const ProdutosLoja = () => {
                             </Typography>
                         </CardContent>
                         <p className='text-center'>R$ 160,00</p>
-                        <CardActions>
-                            <Button className='text-center justify-center mx-auto ' size="small">Comprar</Button>
+                        <CardActions className="flex justify-center">
+                            <button className='font-medium border-2 text-sm border-yellow-400 py-1 px-2 rounded-full hover:bg-black hover:text-yellow-300 text-white bg-gray-600 transition'><a href="https://wa.link/pxei63">Comprar<LocalGroceryStoreSharpIcon className='text-yellow-300' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -127,8 +127,8 @@ const ProdutosLoja = () => {
                             </Typography>
                         </CardContent>
                         <p className='text-center'>R$ 160,00</p>
-                        <CardActions>
-                            <Button className='text-center justify-center mx-auto' size="small">Comprar</Button>
+                        <CardActions className="flex justify-center">
+                            <button className='font-medium border-2 text-sm border-yellow-400 py-1 px-2 rounded-full hover:bg-black hover:text-yellow-300 text-white bg-gray-600 transition'><a href="https://wa.link/pxei63">Comprar<LocalGroceryStoreSharpIcon className='text-yellow-300' /></a></button>
                         </CardActions>
                     </Card>
                     <Card sx={{ maxWidth: 345 }}>
@@ -143,8 +143,8 @@ const ProdutosLoja = () => {
                             </Typography>
                         </CardContent>
                         <p className='text-center'>R$ 160,00</p>
-                        <CardActions>
-                            <Button className='text-center justify-center mx-auto' size="small">Comprar</Button>
+                        <CardActions className="flex justify-center">
+                            <button className='font-medium border-2 text-sm border-yellow-400 py-1 px-2 rounded-full hover:bg-black hover:text-yellow-300 text-white bg-gray-600 transition'><a href="https://wa.link/pxei63">Comprar<LocalGroceryStoreSharpIcon className='text-yellow-300' /></a></button>
                         </CardActions>
                     </Card>
 
