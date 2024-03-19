@@ -7,7 +7,7 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import EmailIcon from '@mui/icons-material/Email';
 
-const Footer = () => {
+const Baixo = () => {
   const footerStyle = {
     backgroundColor: '#FDD835',
     color: '#333',
@@ -56,4 +56,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Baixo;

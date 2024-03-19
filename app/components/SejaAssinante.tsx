@@ -50,22 +50,15 @@ const SejaAssinante = () => {
             <div className=' px-8 flex lg:justify-center  lg:flex-row flex-col lg:gap-0 sm:gap-3 mx-auto'>
                 <div className="flex flex-col lg:flex-row ">
                     <Card sx={{ maxWidth: 345 }} className="mx-2 lg:mt-1 mt-2 shadow-2xl">
-                        <CardHeader
-                            avatar={
-                                <Avatar src="/nova.png" aria-label="recipe" />
-                            }
-                            title="Juan Amigo"
-                            subheader="Março 14, 2024"
-                        />
                         <CardMedia
                             component="img"
                             height="194"
-                            image="/nova.png"
+                            image="/abelhinha.jpg"
                             alt="Paella dish"
                         />
                         <CardContent className='inline'>
                             <Typography className='text-center' variant="body2" color="text.secondary">
-                                <ul className='inline'>
+                                <ul className='inline bg-black'>
                                     <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>24 BOLOS NO POTE</li>
                                     <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>02 ENTREGA MÊS</li>
                                     <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>02 ENTREGAS POR SEMANA</li>
@@ -77,18 +70,10 @@ const SejaAssinante = () => {
                     </Card>
 
                     <Card sx={{ maxWidth: 345 }} className="mx-2 lg:mt-1 mt-2 shadow-2xl">
-                        <CardHeader className='text-center text-gray-500'
-                            avatar={
-                                <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-
-                                </Avatar>
-                            }
-                            title="Doces Prime"
-                        />
                         <CardMedia
                             component="img"
                             height="194"
-                            image="/nova.png"
+                            image="/Produtos2.jpg"
                             alt="Paella dish"
                         />
                         <CardContent className='inline'>
@@ -105,19 +90,10 @@ const SejaAssinante = () => {
                     </Card>
                 </div>
                 <Card sx={{ maxWidth: 345 }} className="mx-2 lg:mt-1 mt-2 shadow-2xl ">
-                    <CardHeader
-                        avatar={
-                            <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
-                                    
-                            </Avatar>
-                        }
-                        title="Juan Amigo"
-                        subheader="Março 14, 2024"
-                    />
                     <CardMedia
                         component="img"
                         height="194"
-                        image="/nova.png"
+                        image="/Produtos3.jpg"
                         alt="Paella dish"
                     />
                     <CardContent className='inline'>

@@ -4,7 +4,7 @@ import "./globals.css";
 import NavBar from "./components/NavBar";
 import Logo from "./components/Logo";
 import Menu from "./components/Menu";
-
+import Baixo from "./components/Baixo";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,11 +21,17 @@ export default function RootLayout({
     <html lang="pt-br">
 
       <body className={inter.className}>
-        <Menu />
-        <Logo />
-        <NavBar />
-        {children}
-
+        <header>
+          <Menu />
+          <Logo />
+          <NavBar />
+        </header>
+        <main>
+          {children}
+        </main>
+        <footer>
+          <Baixo />
+        </footer>
       </body>
     </html>
   );

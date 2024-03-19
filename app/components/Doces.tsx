@@ -8,11 +8,9 @@ import Typography from '@mui/material/Typography';
 import StoreIcon from '@mui/icons-material/Store';
 import LocalGroceryStoreSharpIcon from '@mui/icons-material/LocalGroceryStoreSharp';
 
-const ProdutosLoja = () => {
+const Doces = () => {
     return (
         <>
-            
-
             <div className="mx-auto justify-center container">
                 <div className="py-10 px-8 grid grid-cols-1 md:grid-cols-4 gap-3">
                     {/* Repetir o componente Card 4 vezes */}
@@ -153,7 +151,7 @@ const ProdutosLoja = () => {
             </div>
 
             <div>
-
+                
             </div>
 
 
@@ -163,4 +161,4 @@ const ProdutosLoja = () => {
 
 };
 
-export default ProdutosLoja;
+export default Doces;

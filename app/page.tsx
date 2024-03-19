@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 import Slider from "./components/Slider";
 import Historia from "./components/Historia";
 import Endereco from "./components/Endereco";
-import Footer from "./components/Footer";
+
 import SejaAssinante from "./components/SejaAssinante";
 
 
@@ -19,7 +19,7 @@ export default function Home() {
         <div className="">
           <Endereco />
         </div>
-        <Footer />
+
 
       </div>
     </>
