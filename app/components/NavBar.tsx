@@ -7,15 +7,8 @@ import MenuItem from '@mui/material/MenuItem';
 import { MdHome, MdShoppingCart, MdInfo, MdPersonAdd, MdPerson, MdQuestionAnswer } from 'react-icons/md';
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Drawer from '@mui/material/Drawer';
-import List from '@mui/material/List';
-import Divider from '@mui/material/Divider';
-import ListItem from '@mui/material/ListItem';
-import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
-import ListItemText from '@mui/material/ListItemText';
-import InboxIcon from '@mui/icons-material/MoveToInbox';
-import MailIcon from '@mui/icons-material/Mail';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
 import Dialoge from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
@@ -41,6 +34,22 @@ const NavBar = () => {
 
     const handleClose1 = () => {
         setOpen1(false);
+    };
+
+    const [abrir, setAbrir] = React.useState(false);
+    const handleOpen = () => setAbrir(true);
+    const Fechar = () => setAbrir(false);
+
+    const style = {
+        position: 'absolute' as 'absolute',
+        top: '50%',
+        left: '50%',
+        transform: 'translate(-50%, -50%)',
+        width: 400,
+        bgcolor: 'background.paper',
+        border: '2px solid #000',
+        boxShadow: 24,
+        p: 4,
     };
 
     return (
@@ -90,7 +99,7 @@ const NavBar = () => {
                                     'aria-labelledby': 'basic-button',
                                 }}
                             >
-                                <MenuItem onClick={handleClose}><MdPerson className="mr-1" />Ifood</MenuItem>
+                                <MenuItem onClick={handleClose}><MdPerson className="mr-1" /><button onClick={handleOpen}>Ifood</button></MenuItem>
                                 <MenuItem onClick={handleClose}><MdQuestionAnswer className="mr-1" /> Fale conosco</MenuItem>
                             </Menu>
 
@@ -121,9 +130,40 @@ const NavBar = () => {
                                 </Dialoge>
                             </React.Fragment>
                         </div>
+                        <Modal
+                            open={abrir}
+                            onClose={Fechar}
+                            aria-labelledby="modal-modal-title"
+                            aria-describedby="modal-modal-description"
+                        >
+                            <Box className="bg-black" sx={style}>
+                                <Typography className=' text-yellow-200' id="modal-modal-title" variant="h6" component="h2">
+                                    Manutenção
+                                </Typography>
+                                <Typography className=' text-yellow-200' id="modal-modal-description" sx={{ mt: 2 }}>
+                                    Indisponivel no momento.
+                                </Typography>
+                            </Box>
+                        </Modal>
+
                     </div>
                 </div>
             </div>
+            <Modal
+                open={abrir}
+                onClose={Fechar}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+            >
+                <Box className="bg-black" sx={style}>
+                    <Typography className=' text-yellow-200' id="modal-modal-title" variant="h6" component="h2">
+                        Manutenção
+                    </Typography>
+                    <Typography className=' text-yellow-200' id="modal-modal-description" sx={{ mt: 2 }}>
+                        Indisponivel no momento.
+                    </Typography>
+                </Box>
+            </Modal>
 
 
 

@@ -3,20 +3,18 @@
 import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
-import CardActions from '@mui/material/CardActions';
-import Collapse from '@mui/material/Collapse';
-import Avatar from '@mui/material/Avatar';
 import IconButton, { IconButtonProps } from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import { red } from '@mui/material/colors';
-import FavoriteIcon from '@mui/icons-material/Favorite';
-import ShareIcon from '@mui/icons-material/Share';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+import Forward5RoundedIcon from '@material-ui/icons/Forward5Rounded';
+import FastForwardRoundedIcon from '@material-ui/icons/FastForwardRounded';
+import CakeRoundedIcon from '@material-ui/icons/CakeRounded';
+import MarkunreadMailboxRoundedIcon from '@material-ui/icons/MarkunreadMailboxRounded';
+
+
+
+
 import LibraryAddCheckIcon from '@mui/icons-material/LibraryAddCheck';
 import Image from 'next/image';
 
@@ -45,10 +43,10 @@ const SejaAssinante = () => {
     return (
         <div className='text-base text-center bg-gray-300'>
             <div className='text-xl py-8'>
-                <Typography id="secaoDesejada" className='text-yellow-800 lg:text-2xl text-2xl ' variant="h6">Seja Assinante <LibraryAddCheckIcon className='text-4xl'/></Typography>
+                <Typography id="secaoDesejada" className='text-yellow-800 lg:text-2xl text-2xl ' variant="h6">Seja Assinante <LibraryAddCheckIcon className='text-4xl' /></Typography>
             </div>
             <div className=' px-8 flex lg:justify-center  lg:flex-row flex-col lg:gap-0 sm:gap-3 mx-auto'>
-                <div className="flex flex-col lg:flex-row ">
+                <div className="flex flex-col lg:flex-row md:flex-row ">
                     <Card sx={{ maxWidth: 345 }} className="mx-2 lg:mt-1 mt-2 shadow-2xl">
                         <CardMedia
                             component="img"
@@ -59,12 +57,12 @@ const SejaAssinante = () => {
                         <CardContent className='inline'>
                             <Typography className='text-center' variant="body2" color="text.secondary">
                                 <ul className='inline bg-black'>
-                                    <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>24 BOLOS NO POTE</li>
-                                    <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>02 ENTREGA MÊS</li>
-                                    <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>02 ENTREGAS POR SEMANA</li>
-                                    <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>12 UNIDADES </li>
+                                    <li className='flex items-center font-semibold'><CakeRoundedIcon className=' mx-4 text-yellow-600' />24 BOLOS NO POTE</li>
+                                    <li className='flex items-center font-semibold'><FastForwardRoundedIcon className=' mx-4 text-blue-400' />02 ENTREGA MÊS</li>
+                                    <li className='flex items-center font-semibold'><Forward5RoundedIcon className=' mx-4 text-gray-600' />02 ENTREGAS POR SEMANA</li>
+                                    <li className='flex items-center font-semibold'><MarkunreadMailboxRoundedIcon className=' mx-4 text-amber-900' />12 UNIDADES </li>
                                 </ul>
-                                <button className='font-medium mt-2 border-2 border-yellow-600 py-1 px-2 rounded-full text-sm hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA MENSAL R$ 160,00</a></button>
+                                <button className='lg:text-sm text-xs mt-2 border-2 border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA MENSAL R$ 160,00</a></button>
                             </Typography>
                         </CardContent>
                     </Card>
@@ -79,12 +77,12 @@ const SejaAssinante = () => {
                         <CardContent className='inline'>
                             <Typography className='text-center' variant="body2" color="text.secondary">
                                 <ul className='inline'>
-                                    <li className='flex items-center text-sm'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>48 BOLOS NO POTE</li>
-                                    <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>04 ENTREGA MÊS</li>
-                                    <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>01 ENTREGAS POR SEMANA</li>
-                                    <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>12 UNIDADES </li>
+                                    <li className='flex items-center font-semibold'><CakeRoundedIcon className=' mx-4 text-yellow-600' />24 BOLOS NO POTE</li>
+                                    <li className='flex items-center font-semibold'><FastForwardRoundedIcon className=' mx-4 text-blue-400' />02 ENTREGA MÊS</li>
+                                    <li className='flex items-center font-semibold'><Forward5RoundedIcon className=' mx-4 text-gray-600' />02 ENTREGAS POR SEMANA</li>
+                                    <li className='flex items-center font-semibold'><MarkunreadMailboxRoundedIcon className=' mx-4 text-amber-900' />12 UNIDADES </li>
                                 </ul>
-                                <button className='font-medium mt-2 border-2 text-sm border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA MENSAL R$ 330,00</a></button>
+                                <button className='lg:text-sm text-xs mt-2 border-2 border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA MENSAL R$ 330,00</a></button>
                             </Typography>
                         </CardContent>
                     </Card>
@@ -99,12 +97,12 @@ const SejaAssinante = () => {
                     <CardContent className='inline'>
                         <Typography className='text-center' variant="body2" color="text.secondary">
                             <ul className='inline'>
-                                <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>80 BOLOS NO POTE</li>
-                                <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>04 ENTREGA MÊS</li>
-                                <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>01 ENTREGAS POR SEMANA</li>
-                                <li className='flex items-center'><Image className='w-16 mx-4' src={'/nova.png'} alt='logo' width={1000} height={1000}></Image>20 UNIDADES </li>
+                                <li className='flex items-center font-semibold'><CakeRoundedIcon className='mx-4 text-yellow-600' />24 BOLOS NO POTE</li>
+                                <li className='flex items-center font-semibold'><FastForwardRoundedIcon className=' mx-4 text-blue-400' />02 ENTREGA MÊS</li>
+                                <li className='flex items-center font-semibold'><Forward5RoundedIcon className=' mx-4 text-gray-600' />02 ENTREGAS POR SEMANA</li>
+                                <li className='flex items-center font-semibold'><MarkunreadMailboxRoundedIcon className=' mx-4 text-amber-900' />12 UNIDADES </li>
                             </ul>
-                            <button className='font-medium mt-2 border-2 text-sm border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA ANUAL R$ 560,00</a></button>
+                            <button className='lg:text-sm text-xs mt-2 border-2  border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA ANUAL R$ 560,00</a></button>
                         </Typography>
                     </CardContent>
 

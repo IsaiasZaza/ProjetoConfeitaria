@@ -2,21 +2,30 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Button from '@mui/material/Button';
-import { useState } from 'react';
 import RoomSharpIcon from '@mui/icons-material/RoomSharp';
 import FastfoodSharpIcon from '@mui/icons-material/FastfoodSharp';
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import Modal from '@mui/material/Modal';
 
+
+const style = {
+    position: 'absolute' as 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    width: 400,
+    bgcolor: 'background.paper',
+    border: '2px solid #000',
+    boxShadow: 24,
+    p: 4,
+  };
 
 const Endereco = () => {
 
-    const [alerta, setAlerta] = useState(false)
-
-    const clicar = () => {
-        setAlerta(true);
-        alert("o ifood esta em manutenção");
-
-    }
+    const [open, setOpen] = React.useState(false);
+    const handleOpen = () => setOpen(true);
+    const handleClose = () => setOpen(false);
 
     return (
         <>
@@ -41,7 +50,7 @@ const Endereco = () => {
                         </div>
 
                         <div>
-                            <button onClick={clicar} className='shadow-lg py-2 px-3 hover:bg-blue-500 transition bg-blue-600 rounded-lg text-white'>Ifood <FastfoodSharpIcon/></button>
+                            <button onClick={handleOpen} className='shadow-lg py-2 px-3 hover:bg-blue-500 transition bg-blue-600 rounded-lg text-white'>Ifood <FastfoodSharpIcon/></button>
 
                         </div>
                     </div>
@@ -49,6 +58,25 @@ const Endereco = () => {
 
                 </div>
             </div>
+
+            <div>
+
+      <Modal
+        open={open}
+        onClose={handleClose}
+        aria-labelledby="modal-modal-title"
+        aria-describedby="modal-modal-description"
+      >
+        <Box className="bg-black" sx={style}>
+          <Typography className=' text-yellow-200' id="modal-modal-title" variant="h6" component="h2">
+            Manutenção
+          </Typography>
+          <Typography className=' text-yellow-200' id="modal-modal-description" sx={{ mt: 2 }}>
+            Indisponivel no momento.
+          </Typography>
+        </Box>
+      </Modal>
+    </div>
         </>
     )
 

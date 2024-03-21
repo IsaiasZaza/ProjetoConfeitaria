@@ -5,6 +5,7 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
+import Image from 'next/image';
 
 export default function Historia() {
     return (

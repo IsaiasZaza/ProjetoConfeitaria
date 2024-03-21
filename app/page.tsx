@@ -1,7 +1,4 @@
-import Image from "next/image";
-import Menu from "./components/Menu";
-import Logo from "./components/Logo";
-import NavBar from "./components/NavBar";
+
 import Slider from "./components/Slider";
 import Historia from "./components/Historia";
 import Endereco from "./components/Endereco";
@@ -16,6 +13,7 @@ export default function Home() {
         <Slider />
         <Historia />
         <SejaAssinante />
+    
         <div className="">
           <Endereco />
         </div>
