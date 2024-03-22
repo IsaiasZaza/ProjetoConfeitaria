@@ -7,10 +7,6 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import IconButton, { IconButtonProps } from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import Forward5RoundedIcon from '@material-ui/icons/Forward5Rounded';
-import FastForwardRoundedIcon from '@material-ui/icons/FastForwardRounded';
-import CakeRoundedIcon from '@material-ui/icons/CakeRounded';
-import MarkunreadMailboxRoundedIcon from '@material-ui/icons/MarkunreadMailboxRounded';
 
 
 
@@ -57,10 +53,10 @@ const SejaAssinante = () => {
                         <CardContent className='inline'>
                             <Typography className='text-center' variant="body2" color="text.secondary">
                                 <ul className='inline bg-black'>
-                                    <li className='flex items-center font-semibold'><CakeRoundedIcon className=' mx-4 text-yellow-600' />24 BOLOS NO POTE</li>
-                                    <li className='flex items-center font-semibold'><FastForwardRoundedIcon className=' mx-4 text-blue-400' />02 ENTREGA MÊS</li>
-                                    <li className='flex items-center font-semibold'><Forward5RoundedIcon className=' mx-4 text-gray-600' />02 ENTREGAS POR SEMANA</li>
-                                    <li className='flex items-center font-semibold'><MarkunreadMailboxRoundedIcon className=' mx-4 text-amber-900' />12 UNIDADES </li>
+                                    <li className='flex items-center font-semibold'>24 BOLOS NO POTE</li>
+                                    <li className='flex items-center font-semibold'>02 ENTREGA MÊS</li>
+                                    <li className='flex items-center font-semibold'>02 ENTREGAS POR SEMANA</li>
+                                    <li className='flex items-center font-semibold'>12 UNIDADES </li>
                                 </ul>
                                 <button className='lg:text-sm text-xs mt-2 border-2 border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA MENSAL R$ 160,00</a></button>
                             </Typography>
@@ -77,10 +73,10 @@ const SejaAssinante = () => {
                         <CardContent className='inline'>
                             <Typography className='text-center' variant="body2" color="text.secondary">
                                 <ul className='inline'>
-                                    <li className='flex items-center font-semibold'><CakeRoundedIcon className=' mx-4 text-yellow-600' />24 BOLOS NO POTE</li>
-                                    <li className='flex items-center font-semibold'><FastForwardRoundedIcon className=' mx-4 text-blue-400' />02 ENTREGA MÊS</li>
-                                    <li className='flex items-center font-semibold'><Forward5RoundedIcon className=' mx-4 text-gray-600' />02 ENTREGAS POR SEMANA</li>
-                                    <li className='flex items-center font-semibold'><MarkunreadMailboxRoundedIcon className=' mx-4 text-amber-900' />12 UNIDADES </li>
+                                    <li className='flex items-center font-semibold'>24 BOLOS NO POTE</li>
+                                    <li className='flex items-center font-semibold'>02 ENTREGA MÊS</li>
+                                    <li className='flex items-center font-semibold'>02 ENTREGAS POR SEMANA</li>
+                                    <li className='flex items-center font-semibold'>12 UNIDADES </li>
                                 </ul>
                                 <button className='lg:text-sm text-xs mt-2 border-2 border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA MENSAL R$ 330,00</a></button>
                             </Typography>
@@ -97,10 +93,10 @@ const SejaAssinante = () => {
                     <CardContent className='inline'>
                         <Typography className='text-center' variant="body2" color="text.secondary">
                             <ul className='inline'>
-                                <li className='flex items-center font-semibold'><CakeRoundedIcon className='mx-4 text-yellow-600' />24 BOLOS NO POTE</li>
-                                <li className='flex items-center font-semibold'><FastForwardRoundedIcon className=' mx-4 text-blue-400' />02 ENTREGA MÊS</li>
-                                <li className='flex items-center font-semibold'><Forward5RoundedIcon className=' mx-4 text-gray-600' />02 ENTREGAS POR SEMANA</li>
-                                <li className='flex items-center font-semibold'><MarkunreadMailboxRoundedIcon className=' mx-4 text-amber-900' />12 UNIDADES </li>
+                                <li className='flex items-center font-semibold'>24 BOLOS NO POTE</li>
+                                <li className='flex items-center font-semibold'>02 ENTREGA MÊS</li>
+                                <li className='flex items-center font-semibold'>02 ENTREGAS POR SEMANA</li>
+                                <li className='flex items-center font-semibold'>12 UNIDADES </li>
                             </ul>
                             <button className='lg:text-sm text-xs mt-2 border-2  border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA ANUAL R$ 560,00</a></button>
                         </Typography>
