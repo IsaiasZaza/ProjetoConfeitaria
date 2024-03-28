@@ -17,7 +17,7 @@ import { GiCakeSlice } from "react-icons/gi";
 
 
 import LibraryAddCheckIcon from '@mui/icons-material/LibraryAddCheck';
-import Image from 'next/image';
+
 
 interface ExpandMoreProps extends IconButtonProps {
     expand: boolean;
@@ -63,7 +63,7 @@ const SejaAssinante = () => {
                                     <li className='flex items-center font-semibold'><RiSpeedMiniFill  className='text-2xl mx-2 text-blue-800' />02 ENTREGAS POR SEMANA</li>
                                     <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800'/>12 UNIDADES </li>
                                 </ul>
-                                <button className='lg:text-sm text-xs mt-2 border-2 border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA MENSAL R$ 160,00</a></button>
+                                <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3'><a href="https://wa.link/pxei63">Assinatura Mensal R$ 160,00</a></button>
                             </Typography>
                         </CardContent>
                     </Card>
@@ -83,7 +83,7 @@ const SejaAssinante = () => {
                                     <li className='flex items-center font-semibold'><RiSpeedMiniFill className='text-2xl mx-2 text-blue-800' />02 ENTREGAS POR SEMANA</li>
                                     <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800'/>12 UNIDADES </li>
                                 </ul>
-                                <button className='lg:text-sm text-xs mt-2 border-2 border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA MENSAL R$ 330,00</a></button>
+                                <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3'><a href="https://wa.link/pxei63">Assinatura Mensal R$ 330,00</a></button>
                             </Typography>
                         </CardContent>
                     </Card>
@@ -103,7 +103,7 @@ const SejaAssinante = () => {
                                 <li className='flex items-center font-semibold'><RiSpeedMiniFill className='text-2xl mx-2 text-blue-800' />02 ENTREGAS POR SEMANA</li>
                                 <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800'/>12 UNIDADES </li>
                             </ul>
-                            <button className='lg:text-sm text-xs mt-2 border-2  border-yellow-600 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-gray-950 text-black bg-yellow-200 transition'><a href="https://wa.link/pxei63">ASSINATURA ANUAL R$ 560,00</a></button>
+                            <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3'><a href="https://wa.link/pxei63">Assinatura Mensal R$ 560,00</a></button>
                         </Typography>
                     </CardContent>
 

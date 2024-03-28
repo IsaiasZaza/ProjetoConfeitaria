@@ -36,7 +36,8 @@ const Slider = () => {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <Image className='w-full lg:h-96 h-56 mx-auto' src='/rotacao site.png' alt='logo' width={1920} height={1080} />
+                        <Image className='w-full lg:h-96 h-56 mx-auto' src='/rotacaosite.jpeg' alt='logo' width={1920} height={1080} 
+                        />
                     </SwiperSlide>
                     <SwiperSlide>
                         <Image className='w-full lg:h-96 h-56 mx-auto' src='/rotacao site2.png' alt='logo' width={1920} height={1080} />
