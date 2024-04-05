@@ -36,21 +36,21 @@ const Endereco = () => {
 
                 <div className="lg:w-1/2 text-left lg:px-16 lg:py-10 px-10 py-10">
                     <div>
-                        <h1 className='text-center text-2xl text-slate-800'>Nossa confeitaria</h1>
+                        <h1 className='text-yellow-800 lg:text-3xl text-2xl font-sans'>Nossa confeitaria</h1>
                     </div>
                     <div className='lg:mt-8 lg:items-center items-start mt-3 w-full'>
                         <p className='text-lg'>
-                           <p className='text-gray-800'>Endereço: Quadra 804 Conjunto 18 Casa 22 - <strong>Recanto das Emas</strong></p>
+                           <p className='text-yellow-950'>Endereço: Quadra 804 Conjunto 18 Casa 22 - <strong>Recanto das Emas</strong></p>
                         </p>
                     </div>
 
                     <div className='mt-12 flex gap-2' >
                         <div>
-                            <button className='shadow-lg py-2 px-3 hover:bg-blue-500 transition bg-blue-600 rounded-lg text-white'><a href="https://www.google.com/maps/place/15°55'23.9S+48°03'22.7W/@-15.9232956,-48.0588919,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-15.9232956!4d-48.056317?hl=pt-BR&entry=ttu">Localização <RoomSharpIcon/></a></button>
+                            <button className='shadow-lg py-2 px-3 hover:bg-yellow-500 transition bg-yellow-200 rounded-lg text-black'><a href="https://www.google.com/maps/place/15°55'23.9S+48°03'22.7W/@-15.9232956,-48.0588919,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-15.9232956!4d-48.056317?hl=pt-BR&entry=ttu">Localização <RoomSharpIcon/></a></button>
                         </div>
 
                         <div>
-                            <button onClick={handleOpen} className='shadow-lg py-2 px-3 hover:bg-blue-500 transition bg-blue-600 rounded-lg text-white'>Ifood <FastfoodSharpIcon/></button>
+                            <button onClick={handleOpen} className='shadow-lg py-2 px-3 hover:bg-yellow-500 transition bg-yellow-200 rounded-lg text-black'>Ifood <FastfoodSharpIcon/></button>
 
                         </div>
                     </div>
