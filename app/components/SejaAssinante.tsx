@@ -56,12 +56,13 @@ const SejaAssinante = () => {
                             alt="Paella dish"
                         />
                         <CardContent className='inline'>
-                            <Typography className='text-center text-yellow-950' variant="body2" color="text.secondary">
+                            <p className='text-yellow-700 font-semibold text-lg'>Plano Abelha</p>
+                            <Typography className='text-center text-yellow-950 mt-3' variant="body2" color="text.secondary">
                                 <ul className='inline bg-black'>
-                                    <li className='flex items-center font-semibold'><RiCakeFill className='text-2xl mx-2 text-yellow-600'/>24 BOLOS NO POTE</li>
+                                    <li className='flex items-center font-semibold'><RiCakeFill className='text-2xl mx-2 text-yellow-600' />24 BOLOS NO POTE</li>
                                     <li className='flex items-center font-semibold'><TbTruckDelivery className='text-2xl mx-2 text-gray-800' />02 ENTREGA MÊS</li>
-                                    <li className='flex items-center font-semibold'><RiSpeedMiniFill  className='text-2xl mx-2 text-blue-800' />02 ENTREGAS POR SEMANA</li>
-                                    <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800'/>12 UNIDADES </li>
+                                    <li className='flex items-center font-semibold'><RiSpeedMiniFill className='text-2xl mx-2 text-blue-800' />02 ENTREGAS POR SEMANA</li>
+                                    <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800' />12 UNIDADES </li>
                                 </ul>
                                 <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3'><a href="https://wa.link/pxei63">Assinatura Mensal R$ 160,00</a></button>
                             </Typography>
@@ -76,12 +77,13 @@ const SejaAssinante = () => {
                             alt="Paella dish"
                         />
                         <CardContent className='inline'>
-                            <Typography className='text-center text-yellow-950' variant="body2" color="text.secondary">
+                            <p className='text-yellow-700 font-semibold text-lg'>Plano Enxame</p>
+                            <Typography className='text-center text-yellow-950 mt-3' variant="body2" color="text.secondary">
                                 <ul className='inline'>
-                                    <li className='flex items-center font-semibold'><RiCakeFill className='text-2xl mx-2 text-yellow-600'/>48 BOLOS NO POTE</li>
+                                    <li className='flex items-center font-semibold'><RiCakeFill className='text-2xl mx-2 text-yellow-600' />48 BOLOS NO POTE</li>
                                     <li className='flex items-center font-semibold'><TbTruckDelivery className='text-2xl mx-2 text-gray-800' />04 ENTREGA MÊS</li>
                                     <li className='flex items-center font-semibold'><RiSpeedMiniFill className='text-2xl mx-2 text-blue-800' />01 ENTREGAS POR SEMANA</li>
-                                    <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800'/>12 UNIDADES </li>
+                                    <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800' />12 UNIDADES </li>
                                 </ul>
                                 <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3'><a href="https://wa.link/pxei63">Assinatura Mensal R$ 330,00</a></button>
                             </Typography>
@@ -96,12 +98,13 @@ const SejaAssinante = () => {
                         alt="Paella dish"
                     />
                     <CardContent className='inline'>
-                        <Typography className='text-center text-yellow-950' variant="body2" color="text.secondary">
+                        <p className='text-yellow-700 font-semibold text-lg'>Plano Colmeia</p>
+                        <Typography className='text-center text-yellow-950 mt-3' variant="body2" color="text.secondary">
                             <ul className='inline'>
-                                <li className='flex items-center font-semibold'><RiCakeFill className='text-2xl mx-2 text-yellow-600'/>80 BOLOS NO POTE</li>
+                                <li className='flex items-center font-semibold'><RiCakeFill className='text-2xl mx-2 text-yellow-600' />80 BOLOS NO POTE</li>
                                 <li className='flex items-center font-semibold'><TbTruckDelivery className='text-2xl mx-2 text-gray-800' />04 ENTREGA MÊS</li>
                                 <li className='flex items-center font-semibold'><RiSpeedMiniFill className='text-2xl mx-2 text-blue-800' />01 ENTREGAS POR SEMANA</li>
-                                <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800'/>20 UNIDADES </li>
+                                <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800' />20 UNIDADES </li>
                             </ul>
                             <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3'><a href="https://wa.link/pxei63">Assinatura Mensal R$ 560,00</a></button>
                         </Typography>

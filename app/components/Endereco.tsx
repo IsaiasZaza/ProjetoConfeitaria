@@ -31,7 +31,7 @@ const Endereco = () => {
         <>
             <div className="flex flex-col lg:flex-row justify-center lg:justify-between bg-yellow-300 mt-5">
                 <div className="lg:w-1/2 mx-auto lg:mx-0 mb-4 lg:mb-0">
-                    <Image className="w-full h-auto" src={'/rotacao site.png'} alt="logo" width={1000} height={1000} />
+                    <Image className="w-full lg:h-auto h-64" src={'/rotacaosite.jpeg'} alt="logo" width={1000} height={1000} />
                 </div>
 
                 <div className="lg:w-1/2 text-left lg:px-16 lg:py-10 px-10 py-10">
