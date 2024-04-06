@@ -38,12 +38,12 @@ export default function Historia() {
                                     <p>E entre altos e baixos a abelhinha doces está no mercado desde de 2017 com atendimento em uma loja física e depois com o
                                         E assim o projeto abelhinha doces e cia saiu do papel e toda a família se uniu em prol de um ideal.</p>
 
-                                    <div className='flex mt-4'>
-                                        <p className='mt-3 w-1/2 mx-auto'>Então aos poucos a família viu potencial na ideia e assim o esposo George Washington
+                                    <div className='lg:flex mt-4'>
+                                        <p className='mt-3 lg:w-1/2 lg:mt-0 mx-auto'>Então aos poucos a família viu potencial na ideia e assim o esposo George Washington
                                             Consultor Comercial e seus dois filhos George Washington Junior Administrador de Empresas e Juan Nicolas Ferreira da costa
-                                            Programador e Desenvolvedor de Software decidiram criar um plano de negócios com vários canais de distribuição e marketing para tornar em um
+                                            Programador e Desenvolvedor de Software decidiram criar um pclano de negócios com vários canais de distribuição e marketing para tornar em um
                                             negócio escalável e estável.</p>
-                                        <Image className='shadow-lg shadow-yellow-600 rounded-3xl lg:h-72 h-64 w-80 border-2 border-yellow-600' src='/moça.jpeg' alt='logo' width={1920} height={1080} />
+                                        <Image className='shadow-lg shadow-yellow-600 rounded-3xl lg:h-72 h-64 w-80 border-2 border-yellow-600 lg:0 mt-3' src='/Moça.jpeg' alt='logo' width={1920} height={1080} />
                                     </div>
                                 </div>
                             </Typography>
