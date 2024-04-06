@@ -43,7 +43,7 @@ export default function Historia() {
                                             Consultor Comercial e seus dois filhos George Washington Junior Administrador de Empresas e Juan Nicolas Ferreira da costa
                                             Programador e Desenvolvedor de Software decidiram criar um pclano de negócios com vários canais de distribuição e marketing para tornar em um
                                             negócio escalável e estável.</p>
-                                        <Image className='shadow-lg shadow-yellow-600 rounded-3xl lg:h-72 h-64 w-80 border-2 border-yellow-600 lg:0 mt-3' src='/Moça.jpeg' alt='logo' width={1920} height={1080} />
+                                        <Image className='shadow-lg shadow-yellow-600 rounded-3xl lg:h-72 h-64 w-80 border-2 border-yellow-600 lg:mt-0 mt-3' src='/Moça.jpeg' alt='logo' width={1920} height={1080} />
                                     </div>
                                 </div>
                             </Typography>
