@@ -23,7 +23,7 @@ const Baixo = () => {
   };
 
   return (
-    <footer className='text-center bg-gray-300 text-black p-10' >
+    <footer className='text-center bg-yellow-300 text-orange-700 cursor-default p-10 mt-5' >
       <Typography variant="h6" gutterBottom>
         Siga-nos nas redes sociais
       </Typography>

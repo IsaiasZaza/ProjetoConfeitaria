@@ -9,13 +9,13 @@ import Image from 'next/image';
 
 export default function Historia() {
     return (
-        <div className='bg-gray-200 py-3'>
-            <div className='mt-3 lg:w-5/6 mx-auto bg-yellow-200 lg:px-10 lg:py-16 py-5 px-3 sm:w-full shadow-2xl rounded-lg '>
+        <div className='py-3'>
+            <div className='mt-3 lg:w-5/6 mx-auto border shadow-md bg-yellow-50 lg:px-10 lg:py-16 py-5 px-3 sm:w-full  rounded-lg '>
                 <div className='text-center text-xl'>
-                    <Typography className='text-yellow-800 justify-center font-semibold' variant="h5">Nossa história <AutoStoriesIcon className='text-3xl' /></Typography>
+                    <Typography className='text-yellow-800 justify-center font-semibold cursor-default' variant="h5">Nossa história <AutoStoriesIcon className='text-3xl' /></Typography>
                 </div>
                 <div className='w-3/4 mx-auto mt-5'>
-                    <p className="text-base lg:text-lg text-yellow-700 font-semibold w-full">
+                    <p className="text-base lg:text-lg text-yellow-700 font-semibold w-full cursor-default">
                         A Abelhinha doces é uma empresa familiar criada de forma natural e despretensiosa como forma de hobby,
                         e com o aumento de elogios e encomendas de amigos e parentes a fundadora <strong className='text-yellow-700'>Eliana Ferreira</strong> da costa viu
                         uma oportunidade de ajudar no orçamento da família e começou a buscar se especializar no ramo com um curso na
@@ -24,7 +24,7 @@ export default function Historia() {
                 </div>
 
                 <div className='lg:w-3/4 mx-auto mt-3 shadow-xl'>
-                    <Accordion className='bg-yellow-400 text-gray-600'>
+                    <Accordion className='bg-yellow-300 text-gray-600'>
                         <AccordionSummary
                             expandIcon={<ArrowDropDownIcon />}
                             aria-controls="panel1-content"

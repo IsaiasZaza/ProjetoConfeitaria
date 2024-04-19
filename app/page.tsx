@@ -9,7 +9,7 @@ import SejaAssinante from "./components/SejaAssinante";
 export default function Home() {
   return (
     <>
-      <div className="bg-gray-300">
+      <div>
         <Slider />
         <Historia />
         <SejaAssinante />

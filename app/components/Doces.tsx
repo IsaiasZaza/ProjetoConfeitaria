@@ -10,7 +10,7 @@ const Doces = () => {
     return (
         <>
             <div className="mx-auto justify-center container">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-7 md:grid-cols-3 gap-2 mt-5 mx-auto px-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 md:grid-cols-3 gap-2 mt-5 mx-auto px-3">
                     <Card className='shadow-xl w-full'>
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
@@ -209,9 +209,9 @@ const Doces = () => {
                         />
                         <CardContent>
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
-                                Coxinha de Morango
+                                Travessa da Felicidade
                             </Typography>
-                            <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 45,00</p>
+                            <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 55,00</p>
                         </CardContent>
                         <CardActions className="flex justify-center">
                             <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>

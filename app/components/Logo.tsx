@@ -13,7 +13,7 @@ const Logo = () => {
                         </div>
                     </div>
                     <div className='lg:mt-0 mt-1 mx-auto'>
-                        <p className='lg:w-full lg:text-2xl text-2xl w-1/2 mx-auto border-b-2 border-yellow-500 text-orange-700 lg:font-semibold font-sans'>Fazendo Sua Festa Deliciosamente Inesquecível</p>
+                        <p className='lg:w-full lg:text-2xl text-2xl w-1/2 mx-auto border-b-2 border-yellow-500 text-orange-700 font-semibold'>Fazendo Sua Festa Deliciosamente Inesquecível</p>
                     
                     </div>
                 </div>

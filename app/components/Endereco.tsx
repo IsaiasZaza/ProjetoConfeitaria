@@ -29,7 +29,7 @@ const Endereco = () => {
 
     return (
         <>
-            <div className="flex flex-col lg:flex-row justify-center lg:justify-between bg-yellow-300 mt-5">
+            <div className="flex flex-col lg:flex-row justify-center lg:justify-between bg-yellow-50 border shadow-md mt-8">
                 <div className="lg:w-1/2 mx-auto lg:mx-0 mb-4 lg:mb-0">
                     <Image className="w-full lg:h-auto h-64" src={'/rotacaosite.jpeg'} alt="logo" width={1000} height={1000} />
                 </div>
@@ -40,7 +40,7 @@ const Endereco = () => {
                     </div>
                     <div className='lg:mt-8 lg:items-center items-start mt-3 w-full'>
                         <p className='text-lg'>
-                           <p className='text-yellow-950'>Endereço: Quadra 804 Conjunto 18 Casa 22 - <strong>Recanto das Emas</strong></p>
+                           <p className='text-yellow-950'>Endereço: Quadra 804 Conjunto 18 Casa 22 - <strong className='text-yellow-600'>Recanto das Emas</strong></p>
                         </p>
                     </div>
 

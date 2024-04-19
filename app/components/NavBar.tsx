@@ -60,15 +60,15 @@ const NavBar = () => {
                         {/* Parte 1: Ícones */}
                         <ul className="flex text-center font-semibold">
                             <li className="mr-6">
-                                <Link className=" text-yellow-200 hover:text-orange-300 flex items-center" href="/"><MdHome className="lg:text-2xl md:hidden text-3xl" /> <span className="hidden md:block">Inicio</span></Link>
+                                <Link className=" text-yellow-200 hover:text-orange-300 flex items-center transition-all" href="/"><MdHome className="lg:text-2xl md:hidden text-3xl" /> <span className="hidden md:block">Inicio</span></Link>
                             </li>
 
                             <li className="mr-6">
-                                <Link className="text-yellow-200 hover:text-orange-300flex items-center" href="/Produtos"><MdShoppingCart className="lg:text-2xl md:hidden text-3xl" /> <span className="hidden md:block">Produtos</span></Link>
+                                <Link className="text-yellow-200 hover:text-orange-300 flex items-center transition-all" href="/Produtos"><MdShoppingCart className="lg:text-2xl md:hidden text-3xl" /> <span className="hidden md:block">Produtos</span></Link>
                             </li>
 
                             <li className="mr-6">
-                                <a href="#" className="text-yellow-200 hover:text-orange-300 flex items-center"> <MdInfo onClick={handleClickOpen} className="lg:text-2xl md:hidden text-3xl" /> <button onClick={handleClickOpen}><span className="hidden md:block">Seja Parceiro</span></button></a>
+                                <a href="#" className="text-yellow-200 hover:text-orange-300 flex items-center transition-all"> <MdInfo onClick={handleClickOpen} className="lg:text-2xl md:hidden text-3xl" /> <button onClick={handleClickOpen}><span className="hidden md:block">Seja Parceiro</span></button></a>
                             </li>
                             <li className="mr-6">
                                 <Link
