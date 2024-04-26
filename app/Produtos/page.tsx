@@ -33,14 +33,24 @@ export default function Page() {
     }
     return (
         <>
-            <Typography className='text-yellow-800 lg:text-3xl text-2xl text-center mt-3' variant="h4">Produtos <StoreIcon className="text-3xl" /></Typography>
+            
+            <div className="text-center mx-auto">
+                <Typography className='text-yellow-800 lg:text-3xl text-2xl text-center mt-3 cursor-default' variant="h4">Nossas categorias<StoreIcon className="text-3xl" /></Typography>
+            </div>
+
             <ul className="m-2 flex justify-center font-semibold text-yellow-600 text-lg">
-                <li onClick={verBolos} className="hover:text-yellow-500 cursor-pointer">Bolos/</li>
-                <li onClick={verDoces} className="hover:text-yellow-500 cursor-pointer">Doces & Sobremesas/</li>
-                <li onClick={verTodos} className="hover:text-yellow-500 cursor-pointer">Todos</li>
+                <li onClick={verBolos} className="hover:text-yellow-500 cursor-pointer">
+                    <span role="img" aria-label="Bolos">🎂</span> Bolos /
+                </li>
+                <li onClick={verDoces} className="hover:text-yellow-500 cursor-pointer">
+                    <span role="img" aria-label="Doces e Sobremesas">🍬</span> Doces & Sobremesas /
+                </li>
+                <li onClick={verTodos} className="hover:text-yellow-500 cursor-pointer">
+                    <span role="img" aria-label="Todos">🌟</span> Todos
+                </li>
             </ul>
 
-            
+
             {bolos &&
                 <div className="container mx-auto mt-3">
                     <div className="mx-auto">
