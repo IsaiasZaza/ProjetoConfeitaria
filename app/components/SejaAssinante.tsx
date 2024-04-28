@@ -64,7 +64,7 @@ const SejaAssinante = () => {
                                     <li className='flex items-center font-semibold'><RiSpeedMiniFill className='text-2xl mx-2 text-blue-800' />02 ENTREGAS POR SEMANA</li>
                                     <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800' />12 UNIDADES </li>
                                 </ul>
-                                <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3 transition-all'><a href="https://wa.link/pxei63">Assinatura Mensal R$ 160,00</a></button>
+                                <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3 transition-all'><a href="https://wa.link/kjgu2r">Assinatura Mensal R$ 160,00</a></button>
                             </Typography>
                         </CardContent>
                     </Card>
@@ -85,7 +85,7 @@ const SejaAssinante = () => {
                                     <li className='flex items-center font-semibold'><RiSpeedMiniFill className='text-2xl mx-2 text-blue-800' />01 ENTREGAS POR SEMANA</li>
                                     <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800' />12 UNIDADES </li>
                                 </ul>
-                                <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3 transition-all'><a href="https://wa.link/pxei63">Assinatura Mensal R$ 330,00</a></button>
+                                <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3 transition-all'><a href="https://wa.link/81xl3w">Assinatura Mensal R$ 330,00</a></button>
                             </Typography>
                         </CardContent>
                     </Card>
@@ -106,7 +106,7 @@ const SejaAssinante = () => {
                                 <li className='flex items-center font-semibold'><RiSpeedMiniFill className='text-2xl mx-2 text-blue-800' />01 ENTREGAS POR SEMANA</li>
                                 <li className='flex items-center font-semibold'><GiCakeSlice className='text-2xl mx-2 text-yellow-800' />20 UNIDADES </li>
                             </ul>
-                            <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3 transition-all'><a href="https://wa.link/pxei63">Assinatura Mensal R$ 560,00</a></button>
+                            <button className='shadow-lg border-2 text-sm font-bold  border-yellow-200 py-2 px-3 rounded-full  hover:bg-yellow-400 hover:text-orange-800 bg-yellow-200 mt-3 transition-all'><a href="https://wa.link/e0ju93">Assinatura Mensal R$ 560,00</a></button>
                         </Typography>
                     </CardContent>
 

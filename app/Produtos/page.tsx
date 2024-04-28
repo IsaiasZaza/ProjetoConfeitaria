@@ -38,7 +38,7 @@ export default function Page() {
                 <Typography className='text-yellow-800 lg:text-3xl text-2xl text-center mt-3 cursor-default' variant="h4">Nossas categorias<StoreIcon className="text-3xl" /></Typography>
             </div>
 
-            <ul className="m-2 flex justify-center font-semibold text-yellow-600 text-lg">
+            <ul className="m-2 flex justify-center font-semibold text-yellow-600 lg:text-lg text-base">
                 <li onClick={verBolos} className="hover:text-yellow-500 cursor-pointer">
                     <span role="img" aria-label="Bolos">🎂</span> Bolos /
                 </li>
@@ -55,7 +55,7 @@ export default function Page() {
                 <div className="container mx-auto mt-3">
                     <div className="mx-auto">
                         <div className="mt-5 ml-3">
-                            <Typography className='text-yellow-800 lg:text-3xl text-xl flex' variant="h4">Bolos <PiCakeDuotone className="text-3xl ml-3 mt-1" /></Typography>
+                            <Typography className='text-yellow-800 lg:text-3xl text-xl flex' variant="h4">Bolos<PiCakeDuotone className="text-3xl ml-3 lg:mt-1 md:mt-1" /></Typography>
                         </div>
                         <ProdutosLoja />
                     </div>
@@ -68,7 +68,7 @@ export default function Page() {
                 <div className="container mx-auto">
                     <div className="mx-auto">
                         <div className="ml-3 mt-5">
-                            <Typography className='text-yellow-800 lg:text-3xl text-xl flex' variant="h4">Doces/Sobremesas <LuDessert className="text-3xl ml-3 mt-1" /></Typography>
+                            <Typography className='text-yellow-800 lg:text-3xl text-xl flex' variant="h4">Doces & Sobremesas<LuDessert className="text-3xl ml-3 lg:mt-1" /></Typography>
                         </div>
                         <Doces />
                     </div>

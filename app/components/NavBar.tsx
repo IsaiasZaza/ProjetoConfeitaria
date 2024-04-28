@@ -14,6 +14,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import DialogTitle from '@mui/material/DialogTitle';
+import { GrVmMaintenance } from "react-icons/gr";
 
 
 
@@ -51,6 +52,7 @@ const NavBar = () => {
         boxShadow: 24,
         p: 4,
     };
+   
 
     return (
         <>
@@ -98,9 +100,10 @@ const NavBar = () => {
                                 MenuListProps={{
                                     'aria-labelledby': 'basic-button',
                                 }}
+                                className='mt-2'
                             >
                                 <MenuItem onClick={handleClose}><MdPerson className="mr-1" /><button onClick={handleOpen}>Ifood</button></MenuItem>
-                                <MenuItem onClick={handleClose}><MdQuestionAnswer className="mr-1" /> Fale conosco</MenuItem>
+                                <MenuItem onClick={handleClose}><MdQuestionAnswer className="mr-1" /><Button className='text-black' href="https://wa.link/rminni">Fale conosco</Button></MenuItem>
                             </Menu>
 
                             <React.Fragment>
@@ -110,11 +113,11 @@ const NavBar = () => {
                                     aria-labelledby="alert-dialog-title"
                                     aria-describedby="alert-dialog-description"
                                 >
-                                    <DialogTitle id="alert-dialog-title" className='text-yellow-200 bg-black text-center'>
-                                        {"SEJA NOSSO PARCEIRO"}
+                                    <DialogTitle id="alert-dialog-title" className='text-yellow-200 bg-black text-center font-semibold'>
+                                        {"Seja Nosso Parceiro"}
                                     </DialogTitle>
                                     <DialogContent className='bg-gray-300'>
-                                        <DialogContentText id="alert-dialog-description" className='mt-5 text-gray-600 font-bold'>
+                                        <DialogContentText id="alert-dialog-description" className='mt-5 text-yellow-900 font-bold'>
                                             A Abelhinha doces faz parceria com diversos estabelecimentos comerciais na área de alimentação com fornecimentos de
                                             nossos produtos para comercialização com boa margem de lucro e garantia de risco zero com a modalidade em comodato.
                                             Fornecemos semanalmente Bolos no pote, cones recheados, trufas, bolos bombons, mini pudins e etc.
@@ -122,8 +125,8 @@ const NavBar = () => {
                                     </DialogContent>
                                     <DialogActions className='bg-gray-300'>
 
-                                        <Button onClick={handleClose1}>Fechar</Button>
-                                        <Button href='https://wa.link/7zobo7' className='font-bold' onClick={handleClose1} autoFocus>Tornar-se Parceiro</Button>
+                                        <Button className='font-bold text-yellow-800 hover:text-yellow-950' onClick={handleClose1}>Fechar</Button>
+                                        <Button href='https://wa.link/17embw' className='font-bold text-yellow-800 hover:text-yellow-950' onClick={handleClose1} autoFocus>Tornar-se Parceiro</Button>
 
 
                                     </DialogActions>
@@ -155,12 +158,15 @@ const NavBar = () => {
                 aria-labelledby="modal-modal-title"
                 aria-describedby="modal-modal-description"
             >
-                <Box className="bg-black" sx={style}>
-                    <Typography className=' text-yellow-200' id="modal-modal-title" variant="h6" component="h2">
-                        Manutenção
+                <Box className="bg-black border-none shadow-xl" sx={style}>
+                    <Typography className=' text-yellow-200 flex' id="modal-modal-title" variant="h6" component="h2">
+                     Ifood em manutenção <GrVmMaintenance className='text-2xl mt-1 ml-2' />
                     </Typography>
                     <Typography className=' text-yellow-200' id="modal-modal-description" sx={{ mt: 2 }}>
-                        Indisponivel no momento.
+                        Estamos trabalhando para resolver o mais rapido possivel.
+
+                        <p className='mt-10'>Atenciosamente,</p>
+                        <p>Equipe Confeitaria Abelhinha Doces.</p>
                     </Typography>
                 </Box>
             </Modal>

@@ -24,7 +24,7 @@ const ProdutosLoja = () => {
                             <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 80,00 KG</p>
                         </CardContent>
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 hover:border-none transition'><a href="https://wa.link/jj0glo">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -41,7 +41,7 @@ const ProdutosLoja = () => {
                             <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 80,00 KG</p>
                         </CardContent>
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition hover:border-none'><a href="https://wa.link/iz4wb2">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
                     <Card className='shadow-xl w-full'>
@@ -58,7 +58,7 @@ const ProdutosLoja = () => {
                         </CardContent>
 
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition hover:border-none'><a href="https://wa.link/wlhld1">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -76,7 +76,7 @@ const ProdutosLoja = () => {
                         </CardContent>
 
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition hover:border-none'><a href="https://wa.link/8z24bx">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -93,7 +93,7 @@ const ProdutosLoja = () => {
                             <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 80,00 KG</p>
                         </CardContent>
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition hover:border-none'><a href="Bolo de chantilly">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -111,7 +111,7 @@ const ProdutosLoja = () => {
                         </CardContent>
 
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition hover:border-none'><a href="https://wa.link/b9x4v5">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -130,7 +130,7 @@ const ProdutosLoja = () => {
 
 
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition hover:border-none'><a href="https://wa.link/7vt1k4">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
                     <Card className='shadow-xl w-full'>
@@ -146,7 +146,7 @@ const ProdutosLoja = () => {
                             <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 80,00 KG</p>
                         </CardContent>
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition hover:border-none'><a href="https://wa.link/az3xh9">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -163,7 +163,7 @@ const ProdutosLoja = () => {
                             <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 80,00 KG</p>
                         </CardContent>
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition hover:border-none'><a href="https://wa.link/1ibazi">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
 
@@ -180,7 +180,7 @@ const ProdutosLoja = () => {
                             <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 90,00 KG</p>
                         </CardContent>
                         <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/acbcfw">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
+                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition hover:border-none'><a href="https://wa.link/377xkm">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
 

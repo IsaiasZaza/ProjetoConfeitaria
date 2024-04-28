@@ -29,28 +29,23 @@ const Baixo = () => {
       </Typography>
       <Grid container justifyContent="center" alignItems="center" spacing={2}>
         <Grid item>
-          <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.instagram.com/elianaabelhinhadoces?igsh=MWRrOWpzczcxZ2cycQ==" target="_blank" rel="noopener noreferrer">
             <InstagramIcon style={iconStyle} />
           </Link>
         </Grid>
         <Grid item>
-          <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.facebook.com/Abelhinhadocesdf" target="_blank" rel="noopener noreferrer">
             <FacebookIcon style={iconStyle} />
           </Link>
         </Grid>
         <Grid item>
-          <Link href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">
-            <YouTubeIcon style={iconStyle} />
-          </Link>
-        </Grid>
-        <Grid item>
-          <Link href="mailto:contato@confeitaria.com">
+          <Link href="mailto:abelhinhadocesdf@gmail.com">
             <EmailIcon style={iconStyle} />
           </Link>
         </Grid>
       </Grid>
       <Typography variant="body2" mt={2}>
-        © {new Date().getFullYear()} Confeitaria. Todos os direitos reservados.
+        © {new Date().getFullYear()} Abelinha Doces. Todos os direitos reservados.
       </Typography>
     </footer>
   );

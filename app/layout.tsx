@@ -1,5 +1,5 @@
 import { Metadata } from 'next';
-
+import Image from 'next/image';
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "./components/NavBar";
@@ -11,6 +11,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Confeitaria Abelhinha Doces",
   description: "Bem-vindo à nossa confeitaria Abelinha, onde cada página é uma tentação irresistível! Explore nossa variedade de bolos, doces, tortas e muito mais. Deixe-se levar pelos aromas e sabores únicos de nossas criações artesanais. Encomende online e receba nossas delícias fresquinhas no conforto da sua casa. Satisfaça seu paladar com a nossa confeitaria de qualidade.",
+  icons:{
+    icon:['/favicon.ico?v=4'],
+    apple:['/favicon.ico?v=4'],
+    shortcut:['/favicon.ico?v=4']
+  }
 };
 
 export default function RootLayout({
