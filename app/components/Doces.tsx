@@ -38,7 +38,7 @@ const Doces = () => {
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
                                 Brigadeiro Gourmet
                             </Typography>
-                            <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 160,00</p>
+                            <p className='text-orange-600 font-bold text-base text-center'>A partir de R$ 10,00</p>
                         </CardContent>
                         <CardActions className="flex justify-center">
                             <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/8ao7e8">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
