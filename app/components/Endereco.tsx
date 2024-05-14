@@ -50,7 +50,7 @@ const Endereco = () => {
                         </div>
 
                         <div>
-                            <button onClick={handleOpen} className='shadow-lg py-2 px-3 hover:bg-yellow-500 transition bg-yellow-200 rounded-lg text-black'>Ifood <FastfoodSharpIcon/></button>
+                            <button onClick={handleOpen} className='shadow-lg py-2 px-3 hover:bg-yellow-500 transition bg-yellow-200 rounded-lg text-black'><a href="https://www.ifood.com.br/delivery/brasilia-df/abelhinha-doces-recanto-das-emas/02e15197-c181-4fbf-979a-b3739597f8fd">Ifood</a><FastfoodSharpIcon/></button>
 
                         </div>
                     </div>
@@ -60,22 +60,6 @@ const Endereco = () => {
             </div>
 
             <div>
-
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-      >
-        <Box className="bg-black" sx={style}>
-          <Typography className=' text-yellow-200' id="modal-modal-title" variant="h6" component="h2">
-            Manutenção
-          </Typography>
-          <Typography className=' text-yellow-200' id="modal-modal-description" sx={{ mt: 2 }}>
-            Indisponivel no momento.
-          </Typography>
-        </Box>
-      </Modal>
     </div>
         </>
     )

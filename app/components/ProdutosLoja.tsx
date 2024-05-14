@@ -15,7 +15,7 @@ const ProdutosLoja = () => {
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
                             image="BoloComTopo.jpeg"
-                            title="green iguana"
+                            title="Bolo Com Topo"
                         />
                         <CardContent>
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
@@ -32,7 +32,7 @@ const ProdutosLoja = () => {
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
                             image="bolo com acetato.jpeg"
-                            title="green iguana"
+                            title="bolo com acetato"
                         />
                         <CardContent>
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
@@ -48,7 +48,7 @@ const ProdutosLoja = () => {
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
                             image="Bolo de chantilly com ganache.jpeg"
-                            title="green iguana"
+                            title="Bolo de chantilly com ganache"
                         />
                         <CardContent>
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
@@ -66,7 +66,7 @@ const ProdutosLoja = () => {
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
                             image="Bolo de ganache.jpeg"
-                            title="green iguana"
+                            title="Bolo de ganache"
                         />
                         <CardContent>
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
@@ -84,7 +84,7 @@ const ProdutosLoja = () => {
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
                             image="BoloCinza.jpeg"
-                            title="green iguana"
+                            title="Bolo Cinza"
                         />
                         <CardContent>
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
@@ -101,7 +101,7 @@ const ProdutosLoja = () => {
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
                             image="Cake.jpeg"
-                            title="green iguana"
+                            title="Cake"
                         />
                         <CardContent>
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
@@ -119,7 +119,7 @@ const ProdutosLoja = () => {
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
                             image="arroz.jpeg"
-                            title="green iguana"
+                            title="arroz"
                         />
                         <CardContent>
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
@@ -137,7 +137,7 @@ const ProdutosLoja = () => {
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
                             image="flores.jpeg"
-                            title="green iguana"
+                            title="Bolo com flores naturais"
                         />
                         <CardContent>
                             <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">

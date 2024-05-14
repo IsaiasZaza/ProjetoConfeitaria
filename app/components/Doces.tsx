@@ -166,24 +166,6 @@ const Doces = () => {
                             <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/w6xdub">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
                         </CardActions>
                     </Card>
-
-                    <Card className='shadow-xl w-full'>
-                        <CardMedia
-                            className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'
-                            image="pastel.jpeg"
-                            title="Pastelzinho de Ninho com Nutella"
-                        />
-                        <CardContent>
-                            <Typography className='text-center text-gray-700 text-lg font-semibold' gutterBottom variant="h6" component="div">
-                                Pastelzinho de Ninho com Nutella
-                            </Typography>
-                            <p className='text-orange-600 font-bold text-base text-center'>R$ 12,00 unidade</p>
-                        </CardContent>
-                        <CardActions className="flex justify-center">
-                            <button className='shadow-lg font-medium border-2 text-sm border-yellow-200 py-1 px-2 rounded-full hover:bg-yellow-400 hover:text-orange-800 text-black bg-yellow-200 transition'><a href="https://wa.link/kkuwld">Comprar<LocalGroceryStoreSharpIcon className='text-orange-600' /></a></button>
-                        </CardActions>
-                    </Card>
-
                     <Card className='shadow-xl w-full'>
                         <CardMedia
                             className='border-b border-yellow-400 object-fill h-80 hover:h-96 transition-all'

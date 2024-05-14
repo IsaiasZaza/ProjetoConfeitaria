@@ -13,9 +13,6 @@ import { TbTruckDelivery } from "react-icons/tb";
 import { GiCakeSlice } from "react-icons/gi";
 
 
-
-
-
 import LibraryAddCheckIcon from '@mui/icons-material/LibraryAddCheck';
 
 
@@ -42,9 +39,9 @@ const SejaAssinante = () => {
     };
 
     return (
-        <div className='text-base text-center'>
+        <div className='text-base text-center' id="SejaParceiro">
             <div className='text-xl py-8 '>
-                <Typography id="secaoDesejada" className='text-yellow-800 lg:text-3xl text-2xl font-sans' variant="h6">Seja Assinante <LibraryAddCheckIcon className='text-4xl' /></Typography>
+                <Typography id="secaoDesejada" className='text-yellow-800 lg:text-3xl text-2xl font-sans cursor-default' variant="h6">Seja Assinante <LibraryAddCheckIcon className='text-4xl' /></Typography>
             </div>
             <div className=' px-8 flex lg:justify-center  lg:flex-row flex-col lg:gap-0 sm:gap-3 mx-auto'>
                 <div className="flex flex-col lg:flex-row md:flex-row ">
